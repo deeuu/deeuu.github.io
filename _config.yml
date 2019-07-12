@@ -13,14 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jekyll Base16 Theme
-email: your-email@example.com
+title: Dominic Ward
+email: dom@deeuu.me
 description: >- # this means to ignore newlines until "baseurl:"
-    Base16 is a simple and colorful theme with the base16 eighties colorscheme
-baseurl: "/jekyll-base16-theme" # the subpath of your site, e.g. /blog
+    Personal website of Dominic Ward
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://deeuu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+author:
+    - github: deeuu
+    - email: dom@deeuu.me
 
 # Build settings
 markdown: kramdown
