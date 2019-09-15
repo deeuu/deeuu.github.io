@@ -255,6 +255,12 @@ footer a {
   color: $base0D;
 }
 
+.article-list article h3.headline,
+.article-list article h3.headline a {
+  margin-top: 0;
+  color: $base0E;
+}
+
 .article-list article .meta {
   margin-bottom: 1rem;
 }
@@ -269,7 +275,6 @@ footer a {
 }
 
 .article-list article section.summary a { color: $base0F; }
-
 
 /* Single Post Layout */
 

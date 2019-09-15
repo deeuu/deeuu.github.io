@@ -1,67 +1,67 @@
 <main role="main" class="homepage">
 
-<div class="article-list">
     <h1 class="headline">Publications</h1>
 
-    <article class="list-item" itemscope itemtype="http://schema.org/Blog">
+<div class="article-list">
 
-        {% capture years %}
-        {% for post in site.data.publications %}
-            {{ post.issued.first.year }}
-        {% endfor %}
-        {% endcapture %}
+    {% capture years %}
+    {% for post in site.data.publications %}
+        {{ post.issued.first.year }}
+    {% endfor %}
+    {% endcapture %}
 
-        <!-- This will only work for years of same length -->
-        {% assign years = years | split: ' ' | uniq | sort | reverse %}
+    <!-- This will only work for years of same length -->
+    {% assign years = years | split: ' ' | uniq | sort | reverse %}
 
-        {% for year in years %}
-            {% assign y = year | plus: 0 %}
+    {% for year in years %}
+        {% assign y = year | plus: 0 %}
 
         {% for post in site.data.publications %}
             {% assign this_year = post.issued.first.year  %}
             {% if this_year == y %}
 
+            <article class="list-item">
+                <h2 class='headline'>
+                    {{ post.title }}
+                </h2>
+
+                <h3 class='headline'>
+                    {{ post.container-title }}
+                </h3>
+
                 <div class="meta">
-
-                    {% if post.personal-url %}
-                        <a href="{{ post.url | relative_url }}">
-                        {{ post.title  }}.
-                        </a>
-                    {% else %} 
-                        {{ post.title }}
-                    {% endif %}
-
-                    <span class="value">
-                    {% for author in post.author %}
-                        {% if author == post.author.last %}
-                            {{ author.given }} {{ author.family }}
-                        {% else %}
-                            {{ author.given }} {{ author.family }},
-                        {% endif %}
-                    {% endfor %}
-                    </span>
-
-                    <p>
-                    {% for editor in post.editor %}
-                        {% if editor == post.editor.last %}
-                            {{ editor.given }} {{ editor.family }}
-                        {% else %}
-                            {{ editor.given }} {{ editor.family }},
-                        {% endif %}
-                    {% endfor %}
-                    </p>
-
-                {% if post.container-title %}
-                <p>
-                    {{ post.container-title }} ({{ this_year }})
-                </p>
-                {% endif %} 
-
+                    <span class="val">
+                        <time itemprop="datePublished">
+                        {{ this_year }}
+                        </time>
+                    <span>
                 </div>
+
+                <span>
+                {% for author in post.author %}
+                    {% if author == post.author.last %}
+                        {{ author.given }} {{ author.family }}
+                    {% else %}
+                        {{ author.given }} {{ author.family }},
+                    {% endif %}
+                {% endfor %}
+                </span>
+
+                <span>
+                {% for editor in post.editor %}
+                    {% if editor == post.editor.last %}
+                        {{ editor.given }} {{ editor.family }}
+                    {% else %}
+                        {{ editor.given }} {{ editor.family }},
+                    {% endif %}
+                {% endfor %}
+                </span>
+
+
+            </article>
+
             {% endif %}
         {% endfor %}
-        {% endfor %}
-    </article>
+    {% endfor %}
 </div>
-
 </main>
