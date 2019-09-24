@@ -2,20 +2,20 @@
   type: book
   editor:
   - family: Deville
-    given: Yannick
+    given: Y.
   - family: Gannot
-    given: Sharon
+    given: S.
   - family: Mason
-    given: Russell
+    given: R. D.
   - family: Plumbley
-    given: Mark D.
+    given: M. D.
   - family: Ward
-    given: Dominic
+    given: D.
   issued:
   - year: 2018
-  title: 'Latent variable analysis and signal separation: 13th international conference,
-    lva/ica 2018, guidford, uk, july 2-6, 2018, proceedings'
-  title-short: Latent variable analysis and signal separation
+  title: 'Latent Variable Analysis and Signal Separation'
+  title-short: Latent Variable Analysis and Signal Separation
+  container-title: 14th International Conference, LVA/ICA 2018, Guidford, UK, July 2-6, 2018, Proceedings
   publisher: Springer International Publishing
   URL: https://doi.org/10.1007/978-3-319-93764-9
   DOI: 10.1007/978-3-319-93764-9
@@ -24,22 +24,22 @@
   type: chapter
   author:
   - family: Elliott
-    given: Mark T.
+    given: M. T.
   - family: Ward
-    given: Dominic
+    given: D.
   - family: Stables
-    given: Ryan
+    given: R.
   - family: Fraser
-    given: Dagmar
+    given: D.
   - family: Jacoby
-    given: Nori
+    given: N.
   - family: Wing
-    given: Alan M.
+    given: A. M.
   issued:
   - year: 2018
-  title: 'Analysing multi-person timing in music and movement: Event based methods'
-  title-short: Analysing multi-person timing in music and movement
-  container-title: 'Timing and time perception: Procedures, measures, & applications'
+  title: 'Analysing Multi-Person Timing in Music and Movement: Event Based Methods'
+  title-short: Analysing Multi-Person Timing in Music and Movement
+  container-title: 'Timing and Time Perception: Procedures, Measures, & Applications'
   publisher: Brill
   page: 177-215
   abstract: Accurate timing of movement in the hundreds of milliseconds range is a
@@ -56,26 +56,23 @@
   type: no-type
   author:
   - family: Elliott
-    given: Palmer
-    suffix: M.
-  issued:
-  - year: 2015
-  title: 'Violin trio synchronisation: Effects of leadership, spontaneous musical
-    rate and musical structure'
-  title-short: Violin trio synchronisation
-
-- id: Palmer_2015
-  type: no-type
-  author:
+    given: M.
   - family: Palmer
-    given: Elliott
-    suffix: C.
+    given: C. 
+  - family: Ward
+    given: D.
+  - family: Stables
+    given: R.
+  - family: Wing
+    given: A.
   issued:
   - year: 2015
-  title: Effects of leadership roles and spontaneous musical rate on violin trio synchronization
+  title: 'Violin Trio Synchronisation: Effects of Leadership, Spontaneous Musical Rate and Musical Structure'
+  title-short: Violin Trio Synchronisation
+  container-title: 15th Rhythm Production and Perception Workshop
 
 - id: Li_2015
-  type: no-type
+  type: poster
   author:
   - family: Li
     given: M.
@@ -93,17 +90,30 @@
     given: K.
   issued:
   - year: 2015
-  title: Analysing the synchronous art of trio
+  title: Analysing the Synchronous Art of Trio
+  container-title: Workshop on Interpersonal Postural Interactions 
 
 - id: Wing_2017
-  type: no-type
+  type: paper-workshop
   author:
   - family: Wing
-    given: Ward
-    suffix: A.
+    given: A. M.
+  - family: Ward
+    given: D.
+  - family: Stables
+    given: R.
+  - family: Howe
+    given: J.
+  - family: Chua
+    given: W.
+  - family: Li
+    given: M.
+  - family: Quinn
+    given: K.
   issued:
   - year: 2017
-  title: Synchronising with a violin duo
+  title: Synchronising with a Violin Duo
+  container-title: 16th Rhythm Production and Perception Workshop
 
 - id: Ward_2013
   type: paper-conference
@@ -117,8 +127,8 @@
   issued:
   - year: 2013
     month: 10
-  title: An efficient time-varying loudness model
-  container-title: 2013 ieee workshop on applications of signal processing to audio
+  title: An Efficient Time-Varying Loudness Model
+  container-title: IEEE Workshop on Applications of Signal Processing to Audio
     and acoustics
   page: 1-4
   keyword: acoustic signal processing;computational complexity;discrete Fourier transforms;filtering
@@ -136,16 +146,17 @@
   type: article-journal
   author:
   - family: Ward
-    given: Dominic
+    given: D.
   - family: Enderby
-    given: Sean
+    given: S.
   - family: Athwal
-    given: Cham
+    given: C.
   - family: Reiss
-    given: Joshua
+    given: J. D.
   issued:
   - year: 2015
-  title: Real-time excitation based binaural loudness meters
+  title: Real-Time Excitation Based Binaural Loudness Meters
+  container-title: 18th International International Conference on Digital Audio Effects
 
 - id: Ward2012
   type: paper-conference
@@ -158,8 +169,8 @@
     given: C.
   issued:
   - year: 2012
-  title: Multi-track mixing using a model of loudness and partial loudness
-  container-title: 133rd audio engineering society convention.
+  title: Multi-Track Mixing using a Model of Loudness and Partial Loudness
+  container-title: 133rd Audio Engineering Society Convention.
 
 - id: Ward2016
   type: paper-conference
@@ -170,8 +181,8 @@
     given: J. D.
   issued:
   - year: 2016
-  title: Loudness algorithms for automatic mixing
-  container-title: 2nd audio engineering society workshop on intelligent music production
+  title: Loudness Algorithms for Automatic Mixing
+  container-title: 2nd Workshop on Intelligent Music Production
 
 - id: Ward_2017
   type: paper-conference
@@ -188,8 +199,8 @@
     given: C.
   issued:
   - year: 2017
-  title: Estimating the loudness balance of musical mixtures using audio source separation
-  container-title: 3rd workshop on intelligent music production
+  title: Estimating the Loudness Balance of Musical Mixtures using Audio Source Separation
+  container-title: 3rd Workshop on Intelligent Music Production
   publisher-place: Salford, UK
   abstract: To assist with the development of intelligent mixing systems, it would
     be useful to be able to extract the loudness balance of sources in an existing
@@ -219,8 +230,8 @@
     given: C.
   issued:
   - year: 2017
-  title: Perceptual evaluation of source separation for remixing music
-  container-title: 143rd convention of the audio engineering society
+  title: Perceptual Evaluation of Source Separation for Remixing Music
+  container-title: 143rd Convention of the Audio Engineering Society
   publisher-place: New York, NY
   page: Paper 9880
   abstract: Music remixing is difficult when the original multitrack recording is
@@ -235,56 +246,23 @@
     in sound quality.
   keyword: '"maruss"'
 
-- id: Grais_2017c
-  type: article-journal
-  author:
-  - family: Grais
-    given: E. M.
-  - family: Wierstorf
-    given: H.
-  - family: Ward
-    given: D.
-  - family: Plumbley
-    given: M. D.
-  issued:
-  - year: 2017
-  title: <span class="nocase">Multi-Resolution Fully Convolutional Neural Networks
-    for Monaural Audio Source Separation</span>
-  container-title: ArXiv e-prints
-  abstract: In deep neural networks with convolutional layers, each layer typically
-    has fixed-size/single-resolution receptive field (RF). Convolutional layers with
-    a large RF capture global information from the input features, while layers with
-    small RF size capture local details with high resolution from the input features.
-    In this work, we introduce novel deep multi-resolution fully convolutional neural
-    networks (MR-FCNN), where each layer has different RF sizes to extract multi-resolution
-    features that capture the global and local details information from its input
-    features. The proposed MR-FCNN is applied to separate a target audio source from
-    a mixture of many audio sources. Experimental results show that using MR-FCNN
-    improves the performance compared to feedforward deep neural networks (DNNs) and
-    single resolution deep fully convolutional neural networks (FCNNs) on the audio
-    source separation problem.
-  keyword: '"maruss"'
-  URL: http://adsabs.harvard.edu/abs/2017arXiv171011473G
-
 - id: Ward_2018
   type: paper-conference
   author:
   - family: Ward
-    given: Dominic
+    given: D.
   - family: Wierstorf
-    given: Hagen
+    given: H.
   - family: Mason
-    given: Russell D.
+    given: R. D.
   - family: Grais
-    given: Emad M.
+    given: E. M.
   - family: Plumbley
-    given: Mark D.
+    given: M. D.
   issued:
   - year: 2018
-  title: <span class="nocase">BSS EVAL or PEASS? Predicting the Perception of Singing-Voice
-    Separation</span>
-  container-title: 2018 IEEE international conference on acoustics, speech and signal
-    processing (ICASSP)
+  title: BSS EVAL or PEASS? Predicting the Perception of Singing-Voice Separation
+  container-title: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
   publisher: IEEE
   publisher-place: Calgary, Canada
   abstract: There is some uncertainty as to whether objective metrics for predicting
@@ -321,7 +299,7 @@
     month: 9
   title: '<span class="nocase">SiSEC 2018: State of The Art in Musical Audio Source
     Separation - Subjective Selection of The Best Algorithm</span>'
-  container-title: '<span class="nocase">WIMP: Workshop on Intelligent Music Production</span>'
+  container-title: '<span class="nocase">4th Workshop on Intelligent Music Production</span>'
   publisher-place: Huddersfield, United Kingdom
   abstract: The Signal Separation Evaluation Campaign (SiSEC) is a large-scale regular
     event aimed at evaluating current progress in source separation through a systematic
@@ -361,10 +339,8 @@
     given: D.
   issued:
   - year: 2018
-  title: Multi-resolution fully convolutional neural networks for monaural audio source
-    separation
-  container-title: 'Latent variable analysis and signal separation: 13th international
-    conference, lva/ica 2018, guidford, uk, july 2-6, 2018, proceedings'
+  title: Multi-Resolution Fully Convolutional Neural Networks for Monaural Audio Source Separation
+  container-title: 14th International Conference, LVA/ICA 2018, Guidford, UK, July 2-6, 2018, Proceedings
   publisher: Springer International Publishing
   publisher-place: Cham
   page: 340-350
@@ -394,9 +370,8 @@
     given: M. D.
   issued:
   - year: 2018
-  title: Raw multi-channel audio source separation using multi-resolution convolutional
-    auto-encoders
-  container-title: 2018 26th european signal processing conference (eusipco)
+  title: Raw Multi-Channel Audio Source Separation using Multi-Resolution Convolutional Auto-Encoders
+  container-title: 26th European Signal Processing Conference (EUSIPCO)
   publisher-place: Rome, Italy
   page: 1577-1581
   abstract: Supervised multi-channel audio source separation requires extracting useful
@@ -428,9 +403,8 @@
     given: M. D.
   issued:
   - year: 2019
-  title: Referenceless performance evaluation of audio source separation using deep
-    neural networks
-  container-title: 27th european signal processing conference (eusipco)
+  title: Referenceless Performance Evaluation of Audio Source Separation using Deep Neural Networks
+  container-title: 27th European Signal Processing Conference (EUSIPCO)
   publisher: IEEE
   publisher-place: A Coruña, Spain
   abstract: Current performance evaluation for audio source separation depends on
