@@ -239,7 +239,7 @@ footer a {
 /* Post List Layout */
 
 .article-list h1.list-title {
-  font-size: 3em;
+  font-size: 1em;
   color: $base0A;
 }
 
@@ -247,6 +247,12 @@ footer a {
   padding-top: 4rem;
   padding-bottom: 4rem;
   margin-bottom: 4rem;
+}
+
+.article-list article.tight {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .article-list article h2.headline,

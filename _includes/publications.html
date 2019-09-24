@@ -20,7 +20,7 @@
             {% assign this_year = post.issued.first.year  %}
             {% if this_year == y %}
 
-            <article class="list-item">
+            <article class="tight">
                 <h2 class='headline'>
                     {{ post.title }}
                 </h2>
@@ -30,14 +30,7 @@
                 </h3>
 
                 <div class="meta">
-                    <span class="val">
-                        <time itemprop="datePublished">
-                        {{ this_year }}
-                        </time>
-                    <span>
-                </div>
-
-                <span>
+                <span class='key'>
                 {% for author in post.author %}
                     {% if author == post.author.last %}
                         {{ author.given }} {{ author.family }}
@@ -47,16 +40,25 @@
                 {% endfor %}
                 </span>
 
-                <span>
+                <div>
+                <span class="key">
                 {% for editor in post.editor %}
                     {% if editor == post.editor.last %}
-                        {{ editor.given }} {{ editor.family }}
+                        {{ editor.given }} {{ editor.family }} (Eds.)
                     {% else %}
                         {{ editor.given }} {{ editor.family }},
                     {% endif %}
                 {% endfor %}
                 </span>
+                <div>
 
+                <span class="val">
+                    <time itemprop="datePublished">
+                        {{ this_year }}
+                    </time>
+                <span>
+
+                </div>
 
             </article>
 
