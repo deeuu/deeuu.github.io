@@ -96,7 +96,7 @@
 
 
     <div class='nav'>
-        <a href="{{ site.baseurl }}/">{{ site.title }} </a>
+        <a href="{{ site.baseurl }}/"><i class="fa fa-home" aria-hidden="true"></i></a>
         {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
