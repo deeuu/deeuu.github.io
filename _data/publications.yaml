@@ -1,0 +1,420 @@
+- id: Deville_2018
+  type: book
+  editor:
+  - family: Deville
+    given: Y.
+  - family: Gannot
+    given: S.
+  - family: Mason
+    given: R. D.
+  - family: Plumbley
+    given: M. D.
+  - family: Ward
+    given: D.
+  issued:
+  - year: 2018
+  title: 'Latent Variable Analysis and Signal Separation'
+  title-short: Latent Variable Analysis and Signal Separation
+  container-title: 14th International Conference, LVA/ICA 2018, Guidford, UK, July 2-6, 2018, Proceedings
+  publisher: Springer International Publishing
+  URL: https://doi.org/10.1007/978-3-319-93764-9
+  DOI: 10.1007/978-3-319-93764-9
+
+- id: Elliot_2018
+  type: chapter
+  author:
+  - family: Elliott
+    given: M. T.
+  - family: Ward
+    given: D.
+  - family: Stables
+    given: R.
+  - family: Fraser
+    given: D.
+  - family: Jacoby
+    given: N.
+  - family: Wing
+    given: A. M.
+  issued:
+  - year: 2018
+  title: 'Analysing Multi-Person Timing in Music and Movement: Event Based Methods'
+  title-short: Analysing Multi-Person Timing in Music and Movement
+  container-title: 'Timing and Time Perception: Procedures, Measures, & Applications'
+  publisher: Brill
+  page: 177-215
+  abstract: Accurate timing of movement in the hundreds of milliseconds range is a
+    hallmark of human activities such as music and dance. Its study requires accurate
+    measurement of the times of events (often called responses) based on the movement
+    or acoustic record. This chapter provides a comprehensive overview of methods
+    developed to capture, process, analyse, and model individual and group timing.In
+    a classic paper on sensorimotor timing, Stevens (1886) used a combination of paced
+    and unpaced tapping over a range of tempos to describe what we would now recognise
+    as characteristic attributes of movement timing. Participants tapped with a metronome
+  URL: http://www.jstor.org/stable/10.1163/j.ctvbqs54b.13
+
+- id: Elliot_2015
+  type: no-type
+  author:
+  - family: Elliott
+    given: M.
+  - family: Palmer
+    given: C. 
+  - family: Ward
+    given: D.
+  - family: Stables
+    given: R.
+  - family: Wing
+    given: A.
+  issued:
+  - year: 2015
+  title: 'Violin Trio Synchronisation: Effects of Leadership, Spontaneous Musical Rate and Musical Structure'
+  title-short: Violin Trio Synchronisation
+  container-title: 15th Rhythm Production and Perception Workshop
+
+- id: Li_2015
+  type: poster
+  author:
+  - family: Li
+    given: M.
+  - family: Howe
+    given: J.
+  - family: Chua
+    given: W.
+  - family: Ward
+    given: D.
+  - family: Stables
+    given: R.
+  - family: Wing
+    suffix: A.
+  - family: Quinn
+    given: K.
+  issued:
+  - year: 2015
+  title: Analysing the Synchronous Art of Trio
+  container-title: Workshop on Interpersonal Postural Interactions 
+
+- id: Wing_2017
+  type: paper-workshop
+  author:
+  - family: Wing
+    given: A. M.
+  - family: Ward
+    given: D.
+  - family: Stables
+    given: R.
+  - family: Howe
+    given: J.
+  - family: Chua
+    given: W.
+  - family: Li
+    given: M.
+  - family: Quinn
+    given: K.
+  issued:
+  - year: 2017
+  title: Synchronising with a Violin Duo
+  container-title: 16th Rhythm Production and Perception Workshop
+
+- id: Ward_2013
+  type: paper-conference
+  author:
+  - family: Ward
+    given: D.
+  - family: Athwal
+    given: C.
+  - family: Köküer
+    given: M.
+  issued:
+  - year: 2013
+    month: 10
+  title: An Efficient Time-Varying Loudness Model
+  container-title: IEEE Workshop on Applications of Signal Processing to Audio
+    and acoustics
+  page: 1-4
+  keyword: acoustic signal processing;computational complexity;discrete Fourier transforms;filtering
+    theory;frequency-domain analysis;optimisation;time-varying loudness model;time-varying
+    sounds;optimization techniques;computational complexity reduction;multiresolution
+    DFT;excitation pattern;pre-cochlea filter;absolute threshold;equal loudness contour
+    predictions;steady-state loudness models;time-varying stimuli;loudness errors;computational
+    costs;tolerable error bounds;Computational modeling;Psychoacoustic models;Predictive
+    models;Discrete Fourier transforms;Ear;Frequency-domain analysis;Acoustics;loudness;perceptual
+    models;psychoacoustics
+  DOI: 10.1109/WASPAA.2013.6701884
+  ISSN: 1931-1168
+
+- id: Ward_2015
+  type: article-journal
+  author:
+  - family: Ward
+    given: D.
+  - family: Enderby
+    given: S.
+  - family: Athwal
+    given: C.
+  - family: Reiss
+    given: J. D.
+  issued:
+  - year: 2015
+  title: Real-Time Excitation Based Binaural Loudness Meters
+  container-title: 18th International International Conference on Digital Audio Effects
+
+- id: Ward2012
+  type: paper-conference
+  author:
+  - family: Ward
+    given: D.
+  - family: Reiss
+    given: J. D.
+  - family: Athwal
+    given: C.
+  issued:
+  - year: 2012
+  title: Multi-Track Mixing using a Model of Loudness and Partial Loudness
+  container-title: 133rd Audio Engineering Society Convention.
+
+- id: Ward2016
+  type: paper-conference
+  author:
+  - family: Ward
+    given: D.
+  - family: Reiss
+    given: J. D.
+  issued:
+  - year: 2016
+  title: Loudness Algorithms for Automatic Mixing
+  container-title: 2nd Workshop on Intelligent Music Production
+
+- id: Ward_2017
+  type: paper-conference
+  author:
+  - family: Ward
+    given: D.
+  - family: Wierstorf
+    given: H.
+  - family: Mason
+    given: R. D.
+  - family: Plumbley
+    given: M. D.
+  - family: Hummersone
+    given: C.
+  issued:
+  - year: 2017
+  title: Estimating the Loudness Balance of Musical Mixtures using Audio Source Separation
+  container-title: 3rd Workshop on Intelligent Music Production
+  publisher-place: Salford, UK
+  abstract: To assist with the development of intelligent mixing systems, it would
+    be useful to be able to extract the loudness balance of sources in an existing
+    musical mixture. The relative-to-mix loudness level of four instrument groups
+    was predicted using the sources extracted by 12 audio source separation algorithms.
+    The predictions were compared with the ground truth loudness data of the original
+    unmixed stems obtained from a recent dataset involving 100 mixed songs. It was
+    found that the best source separation system could predict the relative loudness
+    of each instrument group with an average root-mean-square error of 1.2 LU, with
+    superior performance obtained on vocals.
+  keyword: '"maruss"'
+
+- id: Wierstorf_2017
+  type: paper-conference
+  author:
+  - family: Wierstorf
+    given: H.
+  - family: Ward
+    given: D.
+  - family: Grais
+    given: E. M.
+  - family: Plumbley
+    given: M. D.
+  - family: Mason
+    given: R. D.
+  - family: Hummersone
+    given: C.
+  issued:
+  - year: 2017
+  title: Perceptual Evaluation of Source Separation for Remixing Music
+  container-title: 143rd Convention of the Audio Engineering Society
+  publisher-place: New York, NY
+  page: Paper 9880
+  abstract: Music remixing is difficult when the original multitrack recording is
+    not available. One solution is to estimate the elements of a mixture using source
+    separation. However, existing techniques suffer from imperfect separation and
+    perceptible artifacts on single separated sources. To investigate their influence
+    on a remix, five state-of-the-art source separation algorithms were used to remix
+    six songs by increasing the level of the vocals. A listening test was conducted
+    to assess the remixes in terms of loudness balance and sound quality. The results
+    show that some source separation algorithms are able to increase the level of
+    the vocals by up to 6 dB at the cost of introducing a small but perceptible degradation
+    in sound quality.
+  keyword: '"maruss"'
+
+- id: Ward_2018
+  type: paper-conference
+  author:
+  - family: Ward
+    given: D.
+  - family: Wierstorf
+    given: H.
+  - family: Mason
+    given: R. D.
+  - family: Grais
+    given: E. M.
+  - family: Plumbley
+    given: M. D.
+  issued:
+  - year: 2018
+  title: BSS EVAL or PEASS? Predicting the Perception of Singing-Voice Separation
+  container-title: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+  publisher: IEEE
+  publisher-place: Calgary, Canada
+  abstract: There is some uncertainty as to whether objective metrics for predicting
+    the perceived quality of audio source separation are sufficiently accurate. This
+    issue was investigated by employing a revised experimental methodology to collect
+    subjective ratings of sound quality and interference of singing-voice recordings
+    that have been extracted from musical mixtures using state-of-the-art audio source
+    separation. A correlation analysis between the experimental data and the measures
+    of two objective evaluation toolkits, BSS Eval and PEASS, was performed to assess
+    their performance. The artifacts-related perceptual score of the PEASS toolkit
+    had the strongest correlation with the perception of artifacts and distortions
+    caused by singing-voice separation. Both the source-to-interference ratio of BSS
+    Eval and the interference-related perceptual score of PEASS showed comparable
+    correlations with the human ratings of interference.
+  keyword: '"maruss"'
+
+- id: Ward_2018b
+  type: paper-conference
+  author:
+  - family: Ward
+    given: D.
+  - family: Mason
+    given: R. D.
+  - family: Kim
+    given: C.
+  - family: Stöter
+    given: F. R.
+  - family: Liutkus
+    given: A.
+  - family: Plumbley
+    given: M. D.
+  issued:
+  - year: 2018
+    month: 9
+  title: '<span class="nocase">SiSEC 2018: State of The Art in Musical Audio Source
+    Separation - Subjective Selection of The Best Algorithm</span>'
+  container-title: '<span class="nocase">4th Workshop on Intelligent Music Production</span>'
+  publisher-place: Huddersfield, United Kingdom
+  abstract: The Signal Separation Evaluation Campaign (SiSEC) is a large-scale regular
+    event aimed at evaluating current progress in source separation through a systematic
+    and reproducible comparison of the participants’ algorithms, providing the source
+    separation community with an invaluable glimpse of recent achievements and open
+    challenges. This paper focuses on the music separation task from SiSEC 2018, which
+    compares algorithms aimed at recovering instrument stems from a stereo mix. In
+    this context, we conducted a subjective evaluation whereby 34 listeners picked
+    which of six competing algorithms, with high objective performance scores, best
+    separated the singing-voice stem from 13 professionally mixed songs. The subjective
+    results reveal strong differences between the algorithms, and highlight the presence
+    of song-dependent performance for state-of-the-art systems. Correlations between
+    the subjective results and the scores of two popular performance metrics are also
+    presented.
+  keyword: '"maruss"'
+
+- id: Grais_2018c
+  type: chapter
+  author:
+  - family: Grais
+    given: E. M.
+  - family: Wierstorf
+    given: H.
+  - family: Ward
+    given: M. D.
+    suffix: D. Plumbley
+  editor:
+  - family: Deville
+    given: Y.
+  - family: Gannot
+    given: S.
+  - family: Mason
+    given: R. D.
+  - family: Plumbley
+    given: M. D.
+  - family: Ward
+    given: D.
+  issued:
+  - year: 2018
+  title: Multi-Resolution Fully Convolutional Neural Networks for Monaural Audio Source Separation
+  container-title: 14th International Conference, LVA/ICA 2018, Guidford, UK, July 2-6, 2018, Proceedings
+  publisher: Springer International Publishing
+  publisher-place: Cham
+  page: 340-350
+  abstract: In deep neural networks with convolutional layers, all the neurons in
+    each layer typically have the same size receptive fields (RFs) with the same resolution.
+    Convolutional layers with neurons that have large RF capture global information
+    from the input features, while layers with neurons that have small RF size capture
+    local details with high resolution from the input features. In this work, we introduce
+    novel deep multi-resolution fully convolutional neural networks (MR-FCN), where
+    each layer has a range of neurons with different RF sizes to extract multi-resolution
+    features that capture the global and local information from its input features.
+    The proposed MR-FCN is applied to separate the singing voice from mixtures of
+    music sources. Experimental results show that using MR-FCN improves the performance
+    compared to feedforward deep neural networks (DNNs) and single resolution deep
+    fully convolutional neural networks (FCNs) on the audio source separation problem.
+  keyword: '"maruss"'
+  ISBN: 978-3-319-93764-9
+
+- id: Grais_2018d
+  type: paper-conference
+  author:
+  - family: Grais
+    given: E. M.
+  - family: Ward
+    given: D.
+  - family: Plumbley
+    given: M. D.
+  issued:
+  - year: 2018
+  title: Raw Multi-Channel Audio Source Separation using Multi-Resolution Convolutional Auto-Encoders
+  container-title: 26th European Signal Processing Conference (EUSIPCO)
+  publisher-place: Rome, Italy
+  page: 1577-1581
+  abstract: Supervised multi-channel audio source separation requires extracting useful
+    spectral, temporal, and spatial features from the mixed signals. the success of
+    many existing systems is therefore largely dependent on the choice of features
+    used for training. In this work, we introduce a novel multi-channel, multiresolution
+    convolutional auto-encoder neural network that works on raw time-domain signals
+    to determine appropriate multiresolution features for separating the singing-voice
+    from stereo music. Our experimental results show that the proposed method can
+    achieve multi-channel audio source separation without the need for hand-crafted
+    features or any pre- or post-processing.
+  keyword: '"maruss"'
+  URL: https://ieeexplore.ieee.org/document/8553571
+  DOI: 10.23919/EUSIPCO.2018.8553571
+  ISSN: 2076-1465
+
+- id: Grais_2019
+  type: paper-conference
+  author:
+  - family: Grais
+    given: E. M.
+  - family: Wierstorf
+    given: H.
+  - family: Ward
+    given: D.
+  - family: Mason
+    given: R. D.
+  - family: Plumbley
+    given: M. D.
+  issued:
+  - year: 2019
+  title: Referenceless Performance Evaluation of Audio Source Separation using Deep Neural Networks
+  container-title: 27th European Signal Processing Conference (EUSIPCO)
+  publisher: IEEE
+  publisher-place: A Coruña, Spain
+  abstract: Current performance evaluation for audio source separation depends on
+    comparing the processed or separated signals with reference signals. Therefore,
+    common performance evaluation toolkits are not applicable to real-world situations
+    where the ground truth audio is unavailable. In this paper, we propose a performance
+    evaluation technique that does not require reference signals in order to assess
+    separation quality. The proposed technique uses a deep neural network (DNN) to
+    map the processed audio into its quality score. Our experiment results show that
+    the DNN is capable of predicting the sources-to-artifacts ratio from the blind
+    source separation evaluation toolkit \[1\] for singing-voice separation without
+    the need for reference signals.
+  keyword: '"maruss"'

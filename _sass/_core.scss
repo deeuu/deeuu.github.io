@@ -239,7 +239,7 @@ footer a {
 /* Post List Layout */
 
 .article-list h1.list-title {
-  font-size: 3em;
+  font-size: 1em;
   color: $base0A;
 }
 
@@ -249,10 +249,22 @@ footer a {
   margin-bottom: 4rem;
 }
 
+.article-list article.tight {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
 .article-list article h2.headline,
 .article-list article h2.headline a {
   margin-top: 0;
   color: $base0D;
+}
+
+.article-list article h3.headline,
+.article-list article h3.headline a {
+  margin-top: 0;
+  color: $base0E;
 }
 
 .article-list article .meta {
@@ -269,7 +281,6 @@ footer a {
 }
 
 .article-list article section.summary a { color: $base0F; }
-
 
 /* Single Post Layout */
 

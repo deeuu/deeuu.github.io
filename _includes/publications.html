@@ -1,0 +1,69 @@
+<main role="main" class="homepage">
+
+    <h1 class="headline">Publications</h1>
+
+<div class="article-list">
+
+    {% capture years %}
+    {% for post in site.data.publications %}
+        {{ post.issued.first.year }}
+    {% endfor %}
+    {% endcapture %}
+
+    <!-- This will only work for years of same length -->
+    {% assign years = years | split: ' ' | uniq | sort | reverse %}
+
+    {% for year in years %}
+        {% assign y = year | plus: 0 %}
+
+        {% for post in site.data.publications %}
+            {% assign this_year = post.issued.first.year  %}
+            {% if this_year == y %}
+
+            <article class="tight">
+                <h2 class='headline'>
+                    {{ post.title }}
+                </h2>
+
+                <h3 class='headline'>
+                    {{ post.container-title }}
+                </h3>
+
+                <div class="meta">
+                <span class='key'>
+                {% for author in post.author %}
+                    {% if author == post.author.last %}
+                        {{ author.given }} {{ author.family }}
+                    {% else %}
+                        {{ author.given }} {{ author.family }},
+                    {% endif %}
+                {% endfor %}
+                </span>
+
+                <div>
+                <span class="key">
+                {% for editor in post.editor %}
+                    {% if editor == post.editor.last %}
+                        {{ editor.given }} {{ editor.family }} (Eds.)
+                    {% else %}
+                        {{ editor.given }} {{ editor.family }},
+                    {% endif %}
+                {% endfor %}
+                </span>
+                <div>
+
+                <span class="val">
+                    <time itemprop="datePublished">
+                        {{ this_year }}
+                    </time>
+                <span>
+
+                </div>
+
+            </article>
+
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>
+</main>
