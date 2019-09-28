@@ -1,0 +1,33 @@
+<main role="main" class="homepage">
+<h1 class="headline">Software</h1>
+<div class="article-list">
+
+    {% for item in site.data.software %} 
+
+    <article class="tight" itemscope itemtype="http://schema.org/Blog">
+        <h2 class="headline" itemprop="headline">
+            <a href="{{ item.url }}">
+                {{ item.title | escape }}
+            </a>
+        </h2>
+
+        <div class="meta">
+            <span class="val">
+                {% for lang in item.langs %}
+                    {% if lang == item.langs.last %}
+                        {{ lang }}
+                    {% else %}
+                        {{ lang }},
+                    {% endif %}
+                {% endfor %}
+            </span>
+        </div>
+
+        <section class="summary">
+            {{ item.brief }}
+        </section>
+
+    </article>
+    {% endfor %}
+</div>
+</main>

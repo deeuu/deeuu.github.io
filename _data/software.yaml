@@ -1,0 +1,50 @@
+- title: Loudness
+  url: https://github.com/deeuu/loudness
+  langs:
+    - C++
+    - Python
+  brief:
+    C++ Audio library for modelling perceived loudness, with Python bindings
+    (via Swig). Developed during my PhD at Birmingham City University, and has
+    been used by myself and others to develop interesting real-time audio
+    applications centred on loudness and masking estimation. The library is
+    particularly suited to computing auditory features that depend on multiple
+    sources.
+
+- title: Loudness Meters
+  url: https://github.com/deeuu/LoudnessMeters
+  langs:
+    - C++
+    - JUCE
+  brief:
+    Efficient loudness meter implementations of Glasberg and Moore's, and Chen
+    and Hu's multiband loudness models as DAW plugins. Artefact of DAFx15
+    publication in collaboration with Sean Enderby.
+
+- title: apipenv
+  url: https://github.com/deeuu/xontrib-apipenv
+  langs:
+    - xonsh
+  brief:
+      xonstrib (xonsh plugin) to auto-activate/deactivate a Pipenv virtual
+      environment.
+
+- title: Untwist
+  url: https://github.com/IoSR-Surrey/untwist
+  langs:
+    - Python
+  brief:
+    A python library for audio source separation, developed by Gerard Roma and
+    later contributed to by me, as part of the Musical Audio Repurposing using
+    Source Separation project at CVSSP, University of Surrey, lead by Mark
+    Plumbley. 
+
+- title: OMI-DB
+  url: https://bitbucket.org/scicomcore/omi-db
+  langs:
+    - Python
+  brief:
+      Python package for parsing and interacting with the OPTIMAM Mammography
+      Imaging Database (<a
+      href="https://medphys.royalsurrey.nhs.uk/omidb/">OMI-DB</a>).  Developed
+      at The Royal Surrey County Hospital.
