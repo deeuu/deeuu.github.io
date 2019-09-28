@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Hey, I'm Dom and welcome to my site!
-
-I'm currently working in [Scientific
+I'm currently working in the [Scientific
 Computing](https://medphys.royalsurrey.nhs.uk/department/scientific-computing/)
-within The Medical Physics Department at The Royal Surrey County Hospital,
-Guildford, UK.
+group within Medical Physics at The Royal Surrey County Hospital, Guildford,
+UK.
 
 I studied sound engineering and production and Birmingham City University in
 2010, after which I stayed on to complete my PhD in Audio Engineering in 2017.
@@ -22,5 +20,5 @@ Repurposing using Source Separation](https://cvssp.github.io/maruss-website/)
 University of Surrey.
 
 I'm interesting in audio engineering, psychophysics, software development, all
-things code, food, beer, travelling and I also really like dogs. Checkout my
-publications and software projects for specifics.
+things code, food, beer, travelling and dogs. Checkout my publications and
+software projects for specifics.
