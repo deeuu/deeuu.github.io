@@ -9,6 +9,16 @@
         </time>
     </span>
 
+    {% if page.modified_date %}
+    <br>
+    <span class="key">updated on</span>
+    <span class="val">
+        <time itemprop="dateUpdated">
+        {{ page.modified_date | date: date_format }}
+        </time>
+    </span>
+    {% endif %}
+
     {% if page.tags.size > 0 %}
     <br>
     <span class="key">tags:</span>
