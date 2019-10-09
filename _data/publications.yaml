@@ -1,3 +1,14 @@
+- id: Ward_2017b
+  type: phdthesis
+  author:
+  - family: Ward
+    given: D.
+  title: Applications of Loudness Models in Audio Engineering
+  school: Birmingham City University
+  issued:
+  - year: 2017
+  URL: https://www.open-access.bcu.ac.uk/7228/1/PhD%20Thesis.pdf
+
 - id: Deville_2018
   type: book
   editor:
