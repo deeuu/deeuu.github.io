@@ -69,7 +69,7 @@
   - family: Elliott
     given: M.
   - family: Palmer
-    given: C. 
+    given: C.
   - family: Ward
     given: D.
   - family: Stables
@@ -102,7 +102,7 @@
   issued:
   - year: 2015
   title: Analysing the Synchronous Art of Trio
-  container-title: Workshop on Interpersonal Postural Interactions 
+  container-title: Workshop on Interpersonal Postural Interactions
 
 - id: Wing_2017
   type: paper-workshop
@@ -429,3 +429,33 @@
     source separation evaluation toolkit \[1\] for singing-voice separation without
     the need for reference signals.
   keyword: '"maruss"'
+
+- id: Halling_Brown_2020
+  type: journal
+  author:
+  - family: Halling-Brown
+    given: M.
+  - family: Warren
+    given: L. M.
+  - family: Ward
+    given: D.
+  - family: Lewis
+    given: E.
+  - family: Mackenzie
+    given: A.
+  - family: Wallis
+    given: M. G.
+  - family: Wilkinson
+    given: L. S.
+  - family: Given-Wilson
+    given: R. M.
+  - family: McAvinchey
+    given: R.
+  - family: Young
+    given: K. C.
+  title: "OPTIMAM Mammography Image Database: A Large-Scale Resource of Mammography Images and Clinical Data"
+  issued:
+  - year: 2021
+  container-title: "Radiology: Artificial Intelligence. Vol 3 (1)."
+  URL: https://doi.org/10.1148/ryai.2020200103
+  DOI: 10.1148/ryai.2020200103
